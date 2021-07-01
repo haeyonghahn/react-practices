@@ -15,8 +15,7 @@ class TOC extends Component {
             onClick={function(e) {
               e.preventDefault();
               this.props.onChangePage(e.target.dataset.id);
-            }.bind(this)}
-            
+            }.bind(this)}           
           >{data[i].title}</a>
         </li>
       );
