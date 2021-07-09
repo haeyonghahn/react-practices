@@ -119,6 +119,7 @@ class App extends Component {
                 contents:_contents
               });
             }
+            
           } 
           else {
             this.setState({
