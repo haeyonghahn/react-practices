@@ -118,8 +118,7 @@ class App extends Component {
                 mode:'welcome',
                 contents:_contents
               });
-            }
-            
+            }           
           } 
           else {
             this.setState({
